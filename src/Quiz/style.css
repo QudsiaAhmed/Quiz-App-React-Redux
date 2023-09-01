@@ -1,0 +1,138 @@
+body{
+    background-image: url('https://e0.pxfuel.com/wallpapers/542/270/desktop-wallpaper-macbook-air-background-aesthetic-plants-novocom-top-cute-plant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 15rem auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+.user-name-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 1rem;
+    background-color: transparent;
+    outline: none;
+    font-family: monospace;
+
+}
+.StartQuiz {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(96,114,87);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: monospace;
+}
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+.optionsList {
+    list-style: none;
+    padding: 0;
+}
+
+.optionButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adding transition for smooth effect */
+    font-family: monospace;
+}
+
+/* Hover effect */
+.optionButton:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+
+
+.StartQuiz {
+    background-color: rgb(163, 183, 144); /* Default color */
+  }
+  
+  .StartQuiz.active {
+    background-color: rgb(96,114,87); /* Color when input has content */
+  }
+/* Selected option style */
+.optionButton.selected {
+    background-color: rgb(96,114,87);
+}
+/* Correct answer selected style */
+/* .optionButton.selected.correct {
+    background-color: #8edd8e;
+    color: black;
+} */
+
+/* Incorrect answer selected style */
+/* .optionButton.selected.incorrect {
+    background-color: #ea4040; 
+} */
+
+/* Correct answer */
+.optionButton.correct {
+    background-color: #8edd8e;
+    color: black;
+}
+
+/* Incorrect answer */
+.optionButton.incorrect {
+    background-color:  #ea4040;;
+    color: black; 
+}
+
+.PlayAgain{
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(96,114,87);
+        color: white;
+        cursor: pointer;
+        font-family: monospace;
+    
+}
+.nextButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(96,114,87);
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+}
+/* Center the container on small screens */
+@media (max-width: 768px) {
+  
+    .container {
+        width: 90%;
+        margin: 10rem auto;
+        
+    }
+    
+}
